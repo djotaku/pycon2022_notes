@@ -1,0 +1,27 @@
+Type annotations are a form of documentation - allows newly onboarded folks get up to date with teh codebase more quickly. Also helps the original coder. Plus machines can validate (eg mypy)
+
+Ugly Type annotations hint at ugly code! - in other words, just like comments they can help or hurt
+
+When they say to use modern typing syntax - they also mean to make sure you stay up to date with the latest supported Python. This can help the types work a lot better.
+
+standardizing signature formatting helps make things be more readable in the future
+
+give your types meaningful names - neither the type checker nor the Python runtime care about the names
+	- look at the show_lyrics example in the talk - makes it MUCH easier to read
+
+dispatch early to specialize
+
+It's ok the ben dthe rules when it makes senes
+
+nominal vs structural typing
+	- nominal is typing
+	- structure is duck typing
+
+object vs Any? In typing these are opposites
+
+Do not use Any because it silences valid warnings form the type checker
+
+sometimes str is just as bad as Any. You should be more specific
+
+
+
