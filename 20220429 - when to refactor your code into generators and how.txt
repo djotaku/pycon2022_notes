@@ -1,0 +1,5 @@
+Has to do with refactoring
+
+itertools.islice is awesome it means if you create a generator you can access the values like you can with string slicing
+
+definitely get familiar with the itertools module
