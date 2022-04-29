@@ -1,0 +1,12 @@
+Definitely try to tell the upstream and make a patch if you're capable
+
+OK, you fixed a bug, but it may be a while until that release - what should you do? 
+
+YOu can do a workaround as long as you document so you can change it later. Of course, only works if you only hit the bug in one place.
+
+You can make a wrapper function so that things work the way they're supposed to and has the right API. 
+
+"I'll Clean Up that Technical Debt Later; And other Hilarious Jokes you can tell yourself"
+
+try not to do vendoring - it's leaky and hard to maintain
+

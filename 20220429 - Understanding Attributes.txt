@@ -1,0 +1,23 @@
+"variables" in classes are attributes, not variables
+
+every object in Python has attributes
+
+Attributes can contain any Python object - both data and objects
+
+__init__ is NOT the constructor object. It's job is to add attributes to your object
+
+really should never use global on a variable
+
+the entire body of the class executed - just not the functions. 
+
+Classes should be considered file-less modules
+
+So functions in teh class are essentially attributes.
+
+How Python looks for attributes:
+    - Iinstance
+    - Class
+    - class' Parent
+    - Object
+    ICPO
+    
