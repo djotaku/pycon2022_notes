@@ -1,0 +1,34 @@
+2006: original CI was running overnight builds
+
+2008: they start doing with each merge
+
+2015: CI BEFORE the merge
+
+This talk is focused on this final type of CI. Most of the time CI will be running on "suggested patch build", not the final merge.
+
+Want CI to help make sure patches are not regessions.
+
+Want to be able to link to build logs.
+
+You want your CI to have perfect accuracy - that is - it only says there's a regression if there is one and doesn't have false positives.
+
+How long does your CI take to run? If it's accurate and helps you debug, but takes too long, it's less useful.
+
+Cost:if it cost too much, not worth running.
+
+Containers help with the accuracy goal. They keep the version static so that you know regressions came from code, not updating Python. (Pin container version; don't use latest) Also, program's dependencies should be pinned. Only upgrade them in their own patch. That way you know if changing depds (or upgrading Python version causes the regression)
+
+For helping to make your results useful - set your tests to maximum verbosity. That way it's easier to understand what the failure was and where it came from.
+
+Add lots of details in your raised exceptions to help yourself debug your code.
+
+Put environment information into the output so that you can check CI platform vs dev platform if something is going wrong so the dev can make sure they're doing the same. (But no secrets!)
+
+For timeliness - cache aggressively
+
+Order tests in order of likeliness to fail to allow it to fail early in the CI test process
+
+Evaluate these things again and again to make sure your decisions still make sense
+
+
+
