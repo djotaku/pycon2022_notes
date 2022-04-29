@@ -1,0 +1,20 @@
+How Bloomberg started using Python
+
+At Bloomberg they had a lot of despoke network protocols and closed database APIs
+
+An intern created wrappers for those libraries...
+
+Bloomberg created a Python guild to manage python stuff at the company
+
+Some of their problems:
+    - versions of Python were managed ad-hoc
+    - one-ff variables of the C++ wrappers
+    - built on C++ infrastructure
+    
+THe C++ wrappers meant folks were writing Python like C++
+
+
+To get things under control, they had the devs work with the Guild instead of starting their own stuff
+
+InnerSource model - like open source, but for the company. Anyone in the company can do issues and PRs 
+
