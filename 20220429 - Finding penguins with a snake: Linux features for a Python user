@@ -1,0 +1,4 @@
+import time -> time.time() - gets you Unix time
+
+with os.kill - you can send signals like SIGHUP, etc
+
