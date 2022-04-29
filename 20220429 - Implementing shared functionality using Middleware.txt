@@ -1,0 +1,6 @@
+older ideas - glue, interface between hardware/software
+
+PEP 333 - Python Web Server Gateway Interface v1.0
+
+Examples from middleware in flask and django
+
