@@ -1,0 +1,6 @@
+Shift left - the most right is when the bug has already been exploited
+
+just by using literal string type (PEP 675) - can help against SQL injection because does not allow arbitrary strings
+
+
+

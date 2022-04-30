@@ -1,0 +1,27 @@
+Programming for Everyone (or the next 100 million Pythonistas)
+
+Best things about python:
+    - designed for readability
+    - easy to learn
+    - rich library ecosystem
+    - many things with modest effort
+    - welcomeing community
+    - CPython can be extended via C API
+    
+What sucks about Python
+    - Too hard to install and get all the bits
+    - doesn't make apps or websites
+        - not easily, anyway
+    - hard to share work
+        
+Python's become a victim of its own success
+
+WebAssembly changes the game because it allows Python to run in the browser - which every platform has
+
+Pyscript allows you to use Python like Javascript!
+
+No web server needed
+
+It's actualy CPython compiled to WASM
+
+pyscript.net
