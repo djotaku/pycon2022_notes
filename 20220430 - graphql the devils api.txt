@@ -1,0 +1,35 @@
+graphql 
+    - an undirected graph
+    - a query language
+    - an API
+    
+Queries enter via the root node (entry node) and traverse via the edges. The nodes are the data we want.
+
+It shows relationships
+
+descriptive and dense query language
+
+it's Typsafe (JSON types)
+
+Freebies like cursor, first, after, and __typename
+    - these are pagination features
+
+GraphQL needs
+    - Database
+        - any database works - relational, noSQL, Graph
+        - creates a graphical representation facade on any database
+    - ORM
+        - SQLAlchemy
+        - Peewee
+    - GraphQL libs
+        - Ariadne - most popular one on the client side
+        - Graphene - used by  the speaker 
+    
+The devil's in the latency - even small ueries can pose performance issues. Local dev hides this.
+
+    - It's like for loops everywhere!
+    
+The solution is DataLoaders - it batches the queries
+
+The Datalaoders require in-depth understanding of databases, ORM, GraphQL core concepts, and Python Async
+
