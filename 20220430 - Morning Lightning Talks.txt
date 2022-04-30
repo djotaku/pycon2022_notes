@@ -1,0 +1,50 @@
+first talk - don't use the word "just" "why don't you just" because it implies the person doesn't know what they're doing.
+
+second talk: Biometric attack
+
+synthetic faces can be made to unlock phones
+
+3rd: Security Considerations in Python Packaging
+
+saftey db
+
+4th: speeding torch in production
+
+- torch.package and torch::deploy
+
+5th: Spread Python Community wiht COVID-19 in Japan
+
+How Python's Japanese community has continued to evangelize Python despite COVID halting in person activities
+
+6th: DevRel - sharing your company's skills with the world
+
+Each company's definition of DevRel will be different - depends on their needs
+
+Ephemeral Content
+    - Twitter Spaces
+    - Youtube Live/Twitch
+    - TikTik//IG/YT Shorts
+
+Recurring Presence
+    - Meetups
+    - Confs
+    - online communities
+    - guest podcast appearances
+
+longer sustainable commitments
+    - blogging
+    - podcasting
+    - newsletters
+    - social media
+    - YT
+They should feel like they know who you are
+
+7th An interesting use of binary search
+
+
+8th: Skikit-HEP Developer Pages
+
+9th: Public Service Announcement
+
+A package called pants that helps cache tests
+
