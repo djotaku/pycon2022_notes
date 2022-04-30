@@ -1,0 +1,62 @@
+Data Science w/o Data
+    - Recruitment talk
+    
+Cultural Shock at my 1st PyCon US
+    - About how different USA is
+    - Stealth ad for Pycons in Europe
+    
+Covariance, Contravariance, Invariance
+    - Covariance - you can replace a class with another. If Cat is a descendant of Animal, it's covariant
+    - Contravariance - you can replace a cat class with an Animal class
+    - Invariance - you cannot replace one of class with its descendants
+
+The future of trust stores in Python
+    - trust store is a collection of certs (like SSL)
+    - trust store gives you one set of certs instead of per application
+
+
+Memray
+    - tells you the C code that executes from your Python code
+    
+
+Coding the Future of the World
+
+What is Synthetic Data?
+    - alternative to real world data
+    - solves problem of not being able to get access to usable testing data - because otherwise you might need to have access to CC#s
+    - sometimes only limited data is available
+    - data could be biased - intentionally or unintentionally
+    - Synthetic data is meant to fix this - the synthetic data generator looks at your real data and figures out the patterns and then creates fake data that can be used and shared
+    - Or it could extrapolate your data out to get more data
+    - can reduce bias 
+    - better than fake or mock data because it's based on the real data
+
+    
+Holoviz
+    - A bunch of visualization libraries
+
+Robyn
+    - Python Async with a Rust runtime
+    - 
+    
+Elegant Code in 3 Steps
+    - Requires refactoring
+    - Flocking Rules
+        - Identify things that are most alike
+        - Find the smallest difference between them
+        - Make simple changes that will remove the differences in 4 phases:
+            - parse new code
+            - parse and execute it
+            - parse, execute, and use its result
+            - delete unused code
+            (this will make more sense if you watch the talk
+
+Getting to 100% Coverage and Why it Matters
+    - You can get really close, but it's hard to actually get to 100%
+    - what's in the last 2$? 
+        - Nontrivial unreachable code
+        - hard to test code
+    - Hard to tell if you're growing or reducing coverage if you're not at 100%
+    - only skip immaterial lines
+    - can help to put a comment on lines withotu coverage - like #COV_MISSING
+    - 
