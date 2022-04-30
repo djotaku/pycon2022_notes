@@ -1,1 +1,24 @@
-Look for author's github repo - has all examples from teh presentation.
+Look for author's github repo - has all examples from teh presentation. https://github.com/BruceEckel/DataClassesAsTypes
+
+originally we thought of classes solving the problem via encapsulation. With Python using underscore and @property to create a "private" method and a "public" getter.
+
+Python 3.7 gives us dataclasses
+
+This allows us to have class attributes. It gives us an auto-"constructor"
+
+It also creates a dunder eq
+
+Replace can be used to create another of the same object, but with an attribute changed
+
+But they're still mutable, so they can't be used as a key to a dict.
+
+But if you do @dataclass(frozen=True) then the properties become immutable
+
+Now it's hashable and you can use it as a dict's key
+
+dataclass also gets you a dunder post_init
+
+I'm not sure if dataclasses or frozen datacasses are a requirement (missed part of teh talk) but now he uses it as a variable type in the functions. All functions are now simpler, they don't need all the checking code they had before.
+
+Next example is a dataclass made up of dataclasses.
+
