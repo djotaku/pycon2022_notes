@@ -1,0 +1,7 @@
+Data  is the new oil, but you have to be able to extract value from it...
+
+Apache Arrow is a spec, not a program
+
+Current way to talk between programs - there is a cost of serialization and deseriealization of data - same cost when speaking to a database
+
+Apache Arrow allows databases, python, etc to work with data in memory

@@ -1,0 +1,1 @@
+talk about steering council history, what's coming in Python 3.11, user questsions

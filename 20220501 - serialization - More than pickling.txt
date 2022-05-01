@@ -1,0 +1,8 @@
+Serialization: How to convert the data to allow it to be stored, transmitted, or reconstructed
+
+With pickle - the person you send it to still needs to have your code so it can understand the classes
+
+Dill is an "update" of sorts to pickle - doesn't need the code 
+
+
+Marshmellow has flask and django support
