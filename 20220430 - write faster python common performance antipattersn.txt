@@ -1,0 +1,25 @@
+You want to look at Impact vs Code Changes quadrants
+
+Egs:
+    - Scale out infrastructure is low in code change and high in impact
+    - Rewrite in Cython is high in code change and high in impact
+    - low on both is upgrade Python
+    
+Author is going to talk about Optimize Existing Code - esp micro-optimizations which can have high impact with low code changes
+
+Important:
+    - FIRST start with a benchmark
+        - vary inputs
+        - isolate changes
+        - reproduce impact 1000s of times
+        
+    - DON'T
+        - assume impact same across Python versions
+        - make any changes for <10% improvement
+        
+His favorite profilers are austin and scaline. They are Sampler type profilers with low overhead.
+
+github.com/tonybaloney/perflint - a linter to improve performance. Still very early days.
+
+Don't repeat yourself (DRY) BUT function calls have a significant overhead in CPython, especially Pure-Python functions
+

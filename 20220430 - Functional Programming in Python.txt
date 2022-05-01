@@ -1,0 +1,6 @@
+higher order functions - returning a function from a function is one way to keep things pure
+
+pyeffects
+
+get_or_else allows to supply a value if there was no value to return
+

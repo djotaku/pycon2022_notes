@@ -1,0 +1,3 @@
+Computers are better at some of the Threat Intl process and Humans are better at others. Use the right assessor.
+
+make use of rich and rich logging modules to have better output

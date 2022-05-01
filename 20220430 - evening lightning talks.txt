@@ -1,0 +1,23 @@
+Python en Espanol lightning talk is awesome
+
+pedalboard is a module for working with music in python
+
+A plea to help the team that makes Python faster have better profiles so they can know if your program is going faster
+    - pyperformance.readthedocs.io
+    
+
+A demo on how to add 2FA to PyPi
+
+django-codemod can fix your django deprecations
+
+When to rewrite in rust...
+    - CPU Bound
+    - Well container API
+    - should have existing tests
+
+Rust's hash is infallibale. Python's __hash__ is fallible - you can raise exceptions
+
+Calling Python from Rust slows things down. 
+
+Rust can't have more than 1 mutable reference
+
